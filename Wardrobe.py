@@ -4,7 +4,7 @@ from tkinter import messagebox
 import tkinter.ttk as ttk
 from PIL import Image, ImageTk
 
-con = sq.connect(host='localhost', user='root', passwd='Youssef02', database='wardrobe', port=3306)
+con = sq.connect(host='localhost', user='root', passwd='', database='wardrobe', port=3306)
 cur = con.cursor()
 
 
